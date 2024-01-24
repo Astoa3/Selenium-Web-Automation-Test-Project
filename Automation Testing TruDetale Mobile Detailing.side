@@ -1,0 +1,965 @@
+{
+  "id": "557c8693-ff9d-4c7e-8d44-2306f1469c61",
+  "version": "2.0",
+  "name": "Automation Testing: TruDetale Mobile Detailing",
+  "url": "https://trudetale.com",
+  "tests": [{
+    "id": "4cfeff52-4aa1-4eb0-9252-c64f8b31432f",
+    "name": "Home: Verify Logo & Menu Text",
+    "commands": [{
+      "id": "ac076d0b-e23a-457d-a9cb-c93890145851",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f9743ac-7faf-422b-bcec-522caedc680e",
+      "comment": "Verify Logo",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a804e394-a4b7-44bb-8201-053d1007bf06",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.header-title-nav-wrapper:nth-child(1) img",
+      "targets": [
+        ["css=.header-title-nav-wrapper:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='TruDetale']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div[3]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55c19bb9-f8e4-41ae-881d-75106c325beb",
+      "comment": "Verify Menu Elements",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5406c710-d228-4c6f-b455-f2191ac3d22c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.header-title-nav-wrapper:nth-child(1) .header-nav-item--active > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div[3]/div[2]/div/div[2]/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": "Home"
+    }, {
+      "id": "08c2f1a4-4a0f-406c-8f5d-c8f585c233fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Pricing",
+      "targets": [
+        ["linkText=Pricing", "linkText"],
+        ["css=.header-title-nav-wrapper:nth-child(1) .header-nav-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Pricing')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div[3]/div[2]/div/div[2]/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services')]", "xpath:href"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pricing')]", "xpath:innerText"]
+      ],
+      "value": "Pricing"
+    }, {
+      "id": "1e7132eb-2282-41d6-970d-5ccfd1cd8fb9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Schedule",
+      "targets": [
+        ["linkText=Schedule", "linkText"],
+        ["css=.header-title-nav-wrapper:nth-child(1) .header-nav-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Schedule')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div[3]/div[2]/div/div[2]/div/nav/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/schedule')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": "Schedule"
+    }, {
+      "id": "1792a8b5-0095-4b25-af95-1e2edd17766f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Our Work",
+      "targets": [
+        ["linkText=Our Work", "linkText"],
+        ["css=.header-title-nav-wrapper:nth-child(1) .header-nav-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Work')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div[3]/div[2]/div/div[2]/div/nav/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ourwork')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Work')]", "xpath:innerText"]
+      ],
+      "value": "Our Work"
+    }]
+  }, {
+    "id": "64a668fc-4983-4378-8213-78d1f34470ad",
+    "name": "Home: Verify Page Headers",
+    "commands": [{
+      "id": "0680594d-cc5f-4209-a46c-19eb8c3b30da",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860ad676-dbe8-429b-a0d9-4f155c242891",
+      "comment": "Verify Headers",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7f5c811-f0bf-43c8-8ce7-82eb5e4ba4cf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.sqsrte-text-color--white > strong",
+      "targets": [
+        ["css=.sqsrte-text-color--white > strong", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1685629396637_2980']/div/div/h1/span/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Serving The Scottsdale Area')]", "xpath:innerText"]
+      ],
+      "value": "Serving The Scottsdale Area"
+    }, {
+      "id": "79a9462a-5650-463a-8e32-f703ddcacb01",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1663358692024_306383 h2",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1663358692024_306383 h2", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1663358692024_306383']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Our Mission')]", "xpath:innerText"]
+      ],
+      "value": "Our Mission"
+    }, {
+      "id": "c511c0e8-76de-450e-b998-dcb47e10faac",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1663358692024_318319 h2",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1663358692024_318319 h2", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1663358692024_318319']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Why Detail?')]", "xpath:innerText"]
+      ],
+      "value": "Why Detail?"
+    }]
+  }, {
+    "id": "c1359d43-8f4e-4945-a75b-8f030b5c80e6",
+    "name": "Home: Verify Providing Quality Services",
+    "commands": [{
+      "id": "c596f634-a7a5-492f-ae60-43c80af62a11",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee892107-43a5-4a99-9c8c-5035c4130a86",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#\\36 320ba521241591547288b47 > p",
+      "targets": [
+        ["css=#\\36 320ba521241591547288b47 > p", "css:finder"],
+        ["xpath=//div[@id='6320ba521241591547288b47']/p", "xpath:idRelative"],
+        ["xpath=//section[3]/div[2]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Providing Quality Services')]", "xpath:innerText"]
+      ],
+      "value": "Providing Quality Services"
+    }, {
+      "id": "b67cb1a3-1819-4a11-ba97-78b02cea6335",
+      "comment": "Verify banner list",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "003de75f-c74e-404d-b5f2-8772398c28b9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.user-items-list-carousel__slides",
+      "targets": [
+        ["css=.user-items-list-carousel__slides", "css:finder"],
+        ["xpath=//article[@id='sections']/section[3]/div[2]/div/div/div[2]/div/div/div/ul", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e87f1511-9718-4fbf-acf1-e7786063e586",
+    "name": "Home: Verify Banner",
+    "commands": [{
+      "id": "20b41fe8-1b87-4731-8265-c11badaa007f",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5555644-f472-48a9-b387-98762838c7ec",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.has-section-divider > .section-border",
+      "targets": [
+        ["css=.has-section-divider > .section-border", "css:finder"],
+        ["xpath=//article[@id='sections']/section/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ff1a109b-b956-41d7-b1a8-3c9d63d1ff5a",
+    "name": "Home: Verify Services",
+    "commands": [{
+      "id": "bff0d744-dfa4-438b-9e81-c38a3129396e",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3c47b00-02e2-4f8d-8661-b0702733bb3b",
+      "comment": "Verify Logos",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57c6a880-e69f-4f24-9ec7-a7c3dc0d4f40",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(1) .list-image",
+      "targets": [
+        ["css=.list-item:nth-child(1) .list-image", "css:finder"],
+        ["xpath=//img[@alt='Interior']", "xpath:img"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3398ac-7820-4df8-a7e7-549d424e9c3a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(2) .list-image",
+      "targets": [
+        ["css=.list-item:nth-child(2) .list-image", "css:finder"],
+        ["xpath=//img[@alt='Interior Detail']", "xpath:img"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed4e3bf7-801d-4209-94d8-75c88c9f77f7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(3) .list-image",
+      "targets": [
+        ["css=.list-item:nth-child(3) .list-image", "css:finder"],
+        ["xpath=//img[@alt='Pet hair Removal']", "xpath:img"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[3]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[3]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69909ef9-3b5d-421f-82ad-09f97d9ea064",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(4) .list-image",
+      "targets": [
+        ["css=.list-item:nth-child(4) .list-image", "css:finder"],
+        ["xpath=//img[@alt='Luxury']", "xpath:img"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[4]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[4]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa1fd58-9d50-4f9c-bf48-e3d43b6d1231",
+      "comment": "Verify Package Names",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "524f78aa-6e42-4f75-aabc-9e88d52b68c1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.list-item-basic-animation:nth-child(1) .list-item-content__title",
+      "targets": [
+        ["css=.list-item-basic-animation:nth-child(1) .list-item-content__title", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'The Classic')]", "xpath:innerText"]
+      ],
+      "value": "The Classic"
+    }, {
+      "id": "9b802fa2-ddc0-4a0d-a211-5e0d1063eb9f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.list-item-basic-animation:nth-child(2) .list-item-content__title",
+      "targets": [
+        ["css=.list-item-basic-animation:nth-child(2) .list-item-content__title", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[2]/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[2]/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Interior Detail')]", "xpath:innerText"]
+      ],
+      "value": "Interior Detail"
+    }, {
+      "id": "1113cc7d-6931-40cd-852b-941a937d525b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.list-item-basic-animation:nth-child(3) .list-item-content__title",
+      "targets": [
+        ["css=.list-item-basic-animation:nth-child(3) .list-item-content__title", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[3]/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[3]/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Pet Hair Removal')]", "xpath:innerText"]
+      ],
+      "value": "Pet Hair Removal"
+    }, {
+      "id": "960ed3b2-54a6-432f-92fd-e641db3525df",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.list-item-basic-animation:nth-child(4) .list-item-content__title",
+      "targets": [
+        ["css=.list-item-basic-animation:nth-child(4) .list-item-content__title", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[4]/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[4]/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'The Luxury')]", "xpath:innerText"]
+      ],
+      "value": "The Luxury"
+    }, {
+      "id": "3eb0dced-17c8-4427-a624-465627aebac7",
+      "comment": "Verify Package Descriptions",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e27c00b2-1a7a-420a-9cbb-515b94a8203e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(1) p",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f292ca0-c684-4f25-a50d-3664c0a5bcf6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(2) p",
+      "targets": [
+        ["css=.list-item:nth-child(2) p", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[2]/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9d4eb6c-8c31-4fff-b737-f31cb3f8b2cf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(3) p",
+      "targets": [
+        ["css=.list-item:nth-child(3) p", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[3]/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b533cbe9-ed19-4d8b-b8a4-16566066adc7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(4) p",
+      "targets": [
+        ["css=.list-item:nth-child(4) p", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[4]/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[4]/div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8173bb-85d6-4da8-ae92-90f6d790b7bb",
+      "comment": "Verify Prices",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7384d158-8a1c-461a-a83e-3f3d5a2dc116",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong:nth-child(8)",
+      "targets": [],
+      "value": "Starting at $240"
+    }, {
+      "id": "573a861a-6206-420b-9cca-567772e1b281",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong:nth-child(7)",
+      "targets": [
+        ["css=strong:nth-child(7)", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[2]/div[2]/div/div/p/strong", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/div/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Starting at $180')]", "xpath:innerText"]
+      ],
+      "value": "Starting at $180"
+    }, {
+      "id": "afab51d9-a6fa-48d5-8f31-f8e0bfcd19dc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong:nth-child(6)",
+      "targets": [
+        ["css=strong:nth-child(6)", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[3]/div[2]/div/div/p/strong", "xpath:idRelative"],
+        ["xpath=//li[3]/div[2]/div/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Starting at $260')]", "xpath:innerText"]
+      ],
+      "value": "Starting at $260"
+    }, {
+      "id": "2da596a9-84aa-4662-a173-26380d4a8d4b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong:nth-child(5)",
+      "targets": [
+        ["css=strong:nth-child(5)", "css:finder"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[4]/div[2]/div/div/p/strong", "xpath:idRelative"],
+        ["xpath=//li[4]/div[2]/div/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Starting at $400')]", "xpath:innerText"]
+      ],
+      "value": "Starting at $400"
+    }, {
+      "id": "14c95c43-09ce-4dcf-ab03-5bd2ff64e663",
+      "comment": "Verify buttons",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9356b3a-8544-42e3-94d9-a745ce224fa2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Book Today!",
+      "targets": [
+        ["linkText=Book Today!", "linkText"],
+        ["css=.list-item:nth-child(1) .list-item-content__button", "css:finder"],
+        ["xpath=//a[contains(text(),'Book Today!')]", "xpath:link"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/schedule')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Book Today!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc7557c1-66df-458d-845b-9bc0d4daaf6e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(2) .list-item-content__button",
+      "targets": [
+        ["css=.list-item:nth-child(2) .list-item-content__button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book Today!')])[2]", "xpath:link"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[2]/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/schedule')])[5]", "xpath:href"],
+        ["xpath=//li[2]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e6dcdc-1415-4b64-bc9d-755204f1c461",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(3) .list-item-content__button",
+      "targets": [
+        ["css=.list-item:nth-child(3) .list-item-content__button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book Today!')])[3]", "xpath:link"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[3]/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/schedule')])[6]", "xpath:href"],
+        ["xpath=//li[3]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704ede5d-22eb-4599-a2f8-29437ee4f24a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.list-item:nth-child(4) .list-item-content__button",
+      "targets": [
+        ["css=.list-item:nth-child(4) .list-item-content__button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book Today!')])[4]", "xpath:link"],
+        ["xpath=//article[@id='sections']/section[4]/div[2]/div/div/ul/li[4]/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/schedule')])[7]", "xpath:href"],
+        ["xpath=//li[4]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41035ffe-3a42-4915-8a31-a82ac83b246b",
+      "comment": "Menubar",
+      "command": "verifyElementPresent",
+      "target": "css=#block-e0b6822943e6b5ac5ab0 p",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe3a45e7-a435-4dd5-b546-cb3f641a8770",
+      "comment": "Contact Part 1",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1685550174814_4921 p:nth-child(1)",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1685550174814_4921 p:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1685550174814_4921']/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Stay in touch.')]", "xpath:innerText"]
+      ],
+      "value": "Stay in touch."
+    }, {
+      "id": "92ea252b-22da-4316-9a6f-1eddb7a1fdbe",
+      "comment": "Contact Part 2",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1685550174814_4921 p:nth-child(2)",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1685550174814_4921 p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1685550174814_4921']/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,' trudetale@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": "trudetale@gmail.com"
+    }]
+  }, {
+    "id": "b0dea13f-8c76-4de6-baf6-26b1d27c7a6b",
+    "name": "Footer: Verify Contents",
+    "commands": [{
+      "id": "e5c62ed3-2d12-445c-a9b0-7c6cada69529",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83abcbf9-881d-422f-a641-05ca7ea87700",
+      "comment": "Description",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1685550174814_6102 .sqsrte-small",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1685550174814_6102 .sqsrte-small", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1685550174814_6102']/div/div/p", "xpath:idRelative"],
+        ["xpath=//footer/section/div[2]/div/div/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'TruDetale is a mobile vehicle detailing service aim at providing the luxury experience. We understand the importance of great customer interactions and putting in the extra effort in our services.')]", "xpath:innerText"]
+      ],
+      "value": "TruDetale is a mobile vehicle detailing service aim at providing the luxury experience. We understand the importance of great customer interactions and putting in the extra effort in our services."
+    }, {
+      "id": "00d34acb-49b5-49ba-82da-ede138847a5a",
+      "comment": "Copyright",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1685550174814_3936 .sqsrte-small",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1685550174814_3936 .sqsrte-small", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1685550174814_3936']/div/div/p", "xpath:idRelative"],
+        ["xpath=//footer/section/div[2]/div/div/div/div[2]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'©2024 TruDetale LLC. All rights reserved.')]", "xpath:innerText"]
+      ],
+      "value": "©2024 TruDetale LLC. All rights reserved."
+    }]
+  }, {
+    "id": "9f170760-b586-49d0-a3a7-ba5189414a0d",
+    "name": "Pricing: Verify Banner",
+    "commands": [{
+      "id": "5f055fca-6138-4f40-8736-3a9c0aaf050e",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/services",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dd0a247-75d5-4fd3-8994-119b88661762",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.has-section-divider > .section-border",
+      "targets": [
+        ["css=.has-section-divider > .section-border", "css:finder"],
+        ["xpath=//article[@id='sections']/section/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fcbc5ac8-176b-4f79-80e5-caffef2050a7",
+    "name": "Pricing: Verify Promo Banner",
+    "commands": [{
+      "id": "560403c1-a91d-49b0-b75e-b43e2a98d640",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/services",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25d9c61a-afe7-43dd-966f-f9710047c204",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.slides",
+      "targets": [
+        ["css=.slides", "css:finder"],
+        ["xpath=//article[@id='sections']/section[2]/div[2]/div/div/div/div/div/div/ul", "xpath:idRelative"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6196c80b-b685-4e3d-a8ca-2b1ea328e8a1",
+    "name": "Pricing: Verify Headers",
+    "commands": [{
+      "id": "63bc00cc-9d48-46d2-8459-bdedc04ad78d",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/services",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fac2ec07-795a-4e14-851b-800976b606f0",
+      "comment": "Banner Header",
+      "command": "verifyText",
+      "target": "css=.sqsrte-text-color--white > strong",
+      "targets": [
+        ["css=.sqsrte-text-color--white > strong", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1685633316297_2607']/div/div/h1/span/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Serving The Scottsdale Area')]", "xpath:innerText"]
+      ],
+      "value": "Serving The Scottsdale Area"
+    }, {
+      "id": "eab8c262-a51c-449f-809e-df125b6e9d44",
+      "comment": "Pricing Menu",
+      "command": "verifyText",
+      "target": "css=#block-60512108cc3c69ff5910 h2",
+      "targets": [
+        ["css=#block-60512108cc3c69ff5910 h2", "css:finder"],
+        ["xpath=//div[@id='block-60512108cc3c69ff5910']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Pricing Menu')]", "xpath:innerText"]
+      ],
+      "value": "Pricing Menu"
+    }, {
+      "id": "fbb7f306-fd16-4df4-a850-16d684403a3a",
+      "comment": "Packages",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1663358692024_121199 h2",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1663358692024_121199 h2", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1663358692024_121199']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Packages')]", "xpath:innerText"]
+      ],
+      "value": "Packages"
+    }, {
+      "id": "c38eb394-0624-492d-9f8b-6012dc65d425",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#block-f056ac89b0a11a786521 h2",
+      "targets": [
+        ["css=#block-f056ac89b0a11a786521 h2", "css:finder"],
+        ["xpath=//div[@id='block-f056ac89b0a11a786521']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Other Pricing')]", "xpath:innerText"]
+      ],
+      "value": "Other Pricing"
+    }]
+  }, {
+    "id": "e6f52448-73d8-446e-a2f6-ba3057e56aaf",
+    "name": "Pricing: Verify Price Body Elements",
+    "commands": [{
+      "id": "22dbfdf9-4ebe-432f-b79f-d9760c154809",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/services",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31daa153-2287-4f25-8c7e-778289b9086b",
+      "comment": "Pricing Menu       ",
+      "command": "verifyElementPresent",
+      "target": "id=block-yui_3_17_2_1_1663358692024_13490",
+      "targets": [],
+      "value": "                                                                                        $180 - $220                                                                                             $180 - $220\\n\\n    Carpet and seat vacuuming\\n\\n    Carpet and seat shampoo treatment\\n\\n    Steam treatment\\n\\n    Window washing\\n\\n    Console and door cleaning\\n\\n    Finish with scent treatment\\n\\n        Exterior Wash                                                                                                      $60\\n\\n    Handwashing\\n\\n    Foam wash treatment\\n\\n    Tire and rim shining\\n\\n    Window cleaning\\n\\n    Waxing\\n\\n"
+    }, {
+      "id": "8b99d24c-5ed7-4a37-84a0-d158ac104d98",
+      "comment": "Packages",
+      "command": "verifyElementPresent",
+      "target": "id=block-yui_3_17_2_1_1663358692024_149600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e60b55b8-0649-45a0-a9b1-042f540cc3b7",
+      "comment": "Other Pricing",
+      "command": "verifyElementPresent",
+      "target": "id=block-697c991e5a848584a109",
+      "targets": [
+        ["id=block-697c991e5a848584a109", "id"],
+        ["css=#block-697c991e5a848584a109", "css:finder"],
+        ["xpath=//div[@id='block-697c991e5a848584a109']", "xpath:attributes"],
+        ["xpath=//article[@id='sections']/section[3]/div[2]/div/div/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "699ab191-8a09-4c17-b11e-d83e4501b992",
+    "name": "Schedule: Verify Banner",
+    "commands": [{
+      "id": "71c79961-5add-4f60-89ed-d83d93b3a1db",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/schedule",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "696aa27d-c160-48e8-8676-efc74b9f461b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.has-section-divider > .section-border",
+      "targets": [
+        ["css=.has-section-divider > .section-border", "css:finder"],
+        ["xpath=//article[@id='sections']/section/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a124ee3-79e9-4696-be08-2dd6def8b2c4",
+    "name": "Schedule: Verify Contact/Hours",
+    "commands": [{
+      "id": "8684552a-cf97-4090-a2ad-c2a21514d4f4",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/schedule",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aafa95f-429d-4842-a11d-c2064e282f1f",
+      "comment": "Text or Email us Today!",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1663441167522_68490']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "Text or Email us Today!\\n   260-888-0239"
+    }, {
+      "id": "6da93a6c-ba3c-4eef-90a9-7c73b8acc1e9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#block-yui_3_17_2_1_1665070811083_54588 p:nth-child(2)",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1665070811083_54588 p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Monday | 4 - 7 PM')]", "xpath:innerText"]
+      ],
+      "value": "Monday | 4 - 7 PM"
+    }, {
+      "id": "27815d11-3c2d-410a-b7c6-4dc29d73a641",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[3]", "xpath:idRelative"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Tuesday | 4 - 7 PM')]", "xpath:innerText"]
+      ],
+      "value": "Tuesday | 4 - 7 PM"
+    }, {
+      "id": "58c619ce-f7d0-4d39-b8ff-455ed2a9b3a7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[4]", "xpath:idRelative"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Wednesday | 4 - 7 PM')]", "xpath:innerText"]
+      ],
+      "value": "Wednesday | 4 - 7 PM"
+    }, {
+      "id": "7bc4c39a-4781-490e-9a87-2ba165f516ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Thursday | 4 - 7 PM')]", "xpath:innerText"]
+      ],
+      "value": "Thursday | 4 - 7 PM"
+    }, {
+      "id": "4bf6aea3-b02c-4350-888a-45af3c0e5694",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[6]", "xpath:idRelative"],
+        ["xpath=//p[6]", "xpath:position"],
+        ["xpath=//p[contains(.,'Friday | 4 - 7 PM')]", "xpath:innerText"]
+      ],
+      "value": "Friday | 4 - 7 PM"
+    }, {
+      "id": "73a2582b-b48e-4fd6-8fc3-7948a37dcadc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(7)",
+      "targets": [
+        ["css=p:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'Saturday | 10 AM - 3 PM')]", "xpath:innerText"]
+      ],
+      "value": "Saturday | 10 AM - 3 PM"
+    }, {
+      "id": "b1a1120f-5214-4662-86e2-0d2bd8623b94",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(8)",
+      "targets": [
+        ["css=p:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1665070811083_54588']/div/div/p[8]", "xpath:idRelative"],
+        ["xpath=//p[8]", "xpath:position"],
+        ["xpath=//p[contains(.,'Sunday | 10 AM - 3 PM')]", "xpath:innerText"]
+      ],
+      "value": "Sunday | 10 AM - 3 PM"
+    }]
+  }, {
+    "id": "a4549628-5124-4320-a49f-4da7a512d5da",
+    "name": "Schedule: Verify Form Elements",
+    "commands": [{
+      "id": "97be14c5-faff-4d1c-b086-0ed62608dd84",
+      "comment": "",
+      "command": "open",
+      "target": "https://trudetale.com/schedule",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d3c9fd4-597d-4ee0-a512-28ec944e1e98",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=name-yui_3_17_2_1_1553888888520_3744-fname-field",
+      "targets": [
+        ["id=name-yui_3_17_2_1_1553888888520_3744-fname-field", "id"],
+        ["name=fname", "name"],
+        ["css=#name-yui_3_17_2_1_1553888888520_3744-fname-field", "css:finder"],
+        ["xpath=//input[@id='name-yui_3_17_2_1_1553888888520_3744-fname-field']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='name-yui_3_17_2_1_1553888888520_3744']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3381979-2eb9-4cf0-ac00-6bad49cb5029",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=name-yui_3_17_2_1_1553888888520_3744-lname-field",
+      "targets": [
+        ["id=name-yui_3_17_2_1_1553888888520_3744-lname-field", "id"],
+        ["name=lname", "name"],
+        ["css=#name-yui_3_17_2_1_1553888888520_3744-lname-field", "css:finder"],
+        ["xpath=//input[@id='name-yui_3_17_2_1_1553888888520_3744-lname-field']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='name-yui_3_17_2_1_1553888888520_3744']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d42c07df-bb70-40bf-8361-1d9c2e694dc1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=email-yui_3_17_2_1_1553888888520_3745-field",
+      "targets": [
+        ["id=email-yui_3_17_2_1_1553888888520_3745-field", "id"],
+        ["css=#email-yui_3_17_2_1_1553888888520_3745-field", "css:finder"],
+        ["xpath=//input[@id='email-yui_3_17_2_1_1553888888520_3745-field']", "xpath:attributes"],
+        ["xpath=//div[@id='email-yui_3_17_2_1_1553888888520_3745']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30482861-a5c8-432d-a608-0e56b3648e9f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=phone-86b5a8ac-676b-4681-89b8-62315180d06a-input-field",
+      "targets": [
+        ["id=phone-86b5a8ac-676b-4681-89b8-62315180d06a-input-field", "id"],
+        ["css=#phone-86b5a8ac-676b-4681-89b8-62315180d06a-input-field", "css:finder"],
+        ["xpath=//input[@id='phone-86b5a8ac-676b-4681-89b8-62315180d06a-input-field']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='phone-86b5a8ac-676b-4681-89b8-62315180d06a']/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88e2bb92-2407-4b6d-9329-68692d711330",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=textarea-yui_3_17_2_1_1553888888520_3747-field",
+      "targets": [],
+      "value": "Inquiry"
+    }, {
+      "id": "a3efc674-fc82-4172-ae55-07ef4222a279",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=select-2730b57e-f40e-47f5-a43a-48b5bf701478-field",
+      "targets": [
+        ["id=select-2730b57e-f40e-47f5-a43a-48b5bf701478-field", "id"],
+        ["css=#select-2730b57e-f40e-47f5-a43a-48b5bf701478-field", "css:finder"],
+        ["xpath=//select[@id='select-2730b57e-f40e-47f5-a43a-48b5bf701478-field']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='select-2730b57e-f40e-47f5-a43a-48b5bf701478']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "82ed34a5-5a58-4d5e-b974-68ba6a6c770e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4cfeff52-4aa1-4eb0-9252-c64f8b31432f"]
+  }, {
+    "id": "acbdd29b-ebe7-4adf-aa8a-92933fa9995a",
+    "name": "Home",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e87f1511-9718-4fbf-acf1-e7786063e586", "4cfeff52-4aa1-4eb0-9252-c64f8b31432f", "64a668fc-4983-4378-8213-78d1f34470ad", "c1359d43-8f4e-4945-a75b-8f030b5c80e6", "ff1a109b-b956-41d7-b1a8-3c9d63d1ff5a"]
+  }, {
+    "id": "79877443-ac9a-4ffb-b995-f670baa24607",
+    "name": "Pricing",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fcbc5ac8-176b-4f79-80e5-caffef2050a7", "e6f52448-73d8-446e-a2f6-ba3057e56aaf", "6196c80b-b685-4e3d-a8ca-2b1ea328e8a1", "9f170760-b586-49d0-a3a7-ba5189414a0d"]
+  }, {
+    "id": "e4cbfcc2-e0aa-4765-b6c0-b36e440682d6",
+    "name": "Schedule",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["699ab191-8a09-4c17-b11e-d83e4501b992", "2a124ee3-79e9-4696-be08-2dd6def8b2c4", "a4549628-5124-4320-a49f-4da7a512d5da"]
+  }, {
+    "id": "f279ebf4-c52e-4f96-a686-43590c56475b",
+    "name": "Our Work",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "63831c9a-f143-4bdd-9916-bfab922842b3",
+    "name": "Footer",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b0dea13f-8c76-4de6-baf6-26b1d27c7a6b"]
+  }],
+  "urls": ["https://trudetale.com/"],
+  "plugins": []
+}
